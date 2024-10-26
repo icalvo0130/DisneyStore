@@ -69,3 +69,4 @@ if (window.location.pathname.includes("mainpage.html")) {
 } else if (window.location.pathname.includes("tienda.html")) {
     window.onload = initializeStorePage; 
 }
+}
