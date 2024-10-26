@@ -24,7 +24,10 @@
         return null;
     };
     export const logout = () => {
+        const usuarioActivoKey = 'user-active'
         localStorage.removeItem(usuarioActivoKey);    
+        window.location.href = "login.html";
+        alert('Logout con exito')
     };
     
     
